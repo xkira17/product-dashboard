@@ -29,10 +29,10 @@ const Categories = () => {
                     <GridItem>
                         <Card>
                             <CardBody>
-                                <Text>{item.title}</Text>
+                                <Text my={3}>{item.title}</Text>
                                 <Divider />
                                 <HStack>
-                                    <Button onClick={() => onDelete(item.id)} leftIcon={<BiTrash />} colorScheme='red'>
+                                    <Button my={4} onClick={() => onDelete(item.id)} leftIcon={<BiTrash />} colorScheme='red'>
                                         Delete
                                     </Button>
                                 </HStack>
